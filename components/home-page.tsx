@@ -226,7 +226,7 @@ export function HomePage() {
       <header className="site-header">
         <div className="container header-inner">
           <a className="brand" href="#top" aria-label="Rumah Selangorku — laman utama">
-            <span className="brand-mark"><Home size={22} /></span>
+            <span className="brand-mark"><Image src="/rumah-selangorku-logo.png" alt="" width={44} height={44} priority /></span>
             <span><strong>Rumah</strong> Selangorku<small>Panduan perumahan pilihan anda</small></span>
           </a>
           <nav className="desktop-nav" aria-label="Navigasi utama">
@@ -405,7 +405,7 @@ export function HomePage() {
 
       <footer>
         <div className="container footer-top">
-          <div className="footer-brand"><div className="brand light-brand"><span className="brand-mark"><Home size={22} /></span><span><strong>Rumah</strong> Selangorku<small>Panduan perumahan pilihan anda</small></span></div><p>Memudahkan pencarian rumah mampu milik untuk rakyat Malaysia.</p></div>
+          <div className="footer-brand"><div className="brand light-brand"><span className="brand-mark"><Image src="/rumah-selangorku-logo.png" alt="" width={44} height={44} /></span><span><strong>Rumah</strong> Selangorku<small>Panduan perumahan pilihan anda</small></span></div><p>Memudahkan pencarian rumah mampu milik untuk rakyat Malaysia.</p></div>
           <div><h3>Pautan pantas</h3>{navItems.map((item) => <a key={item.href} href={item.href}>{item.label}</a>)}</div>
           <div><h3>Portal rasmi</h3><a href="https://lphs.gov.my/">Laman LPHS</a><a href="https://ehartanah.lphs.gov.my/public/login">Log masuk eHartanah</a><a href="https://ms.wikipedia.org/wiki/Selangor">Mengenai Selangor</a></div>
           <div className="footer-cta"><h3>Belum pasti kelayakan?</h3><p>Gunakan kalkulator percuma untuk anggaran awal.</p><a className="button light" href="#KALKULATOR">Kira DSR anda <ArrowRight size={17} /></a></div>
