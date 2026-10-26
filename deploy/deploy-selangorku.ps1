@@ -1,12 +1,14 @@
+param(
+  [string]$Zip
+)
+
 $ErrorActionPreference = 'Stop'
 
 $siteRoot = 'C:\sites\selangorku-org'
 $sitesRoot = 'C:\sites\'
 $taskName = 'Selangorku Next.js'
-$zipName = 'selangorku-update-dsr-logo-mGQEO7TAP.zip'
-$expectedHash = 'E8E9CEA69D76E24DE454963EDD4BD3D904295D9F57056E93B8298BFBAB1A8F9C'
-$expectedBuild = 'mGQEO7TAP-OeSTxSAS38r'
-$zipPath = Join-Path $PSScriptRoot $zipName
+$zipPath = $null
+$expectedBuild = $null
 $siteBuild = Join-Path $siteRoot '.next'
 $stage = Join-Path $sitesRoot ('.selangorku-stage-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
 $backupPath = $null
@@ -17,6 +19,17 @@ function Assert-InSites([string]$path) {
   $full = [IO.Path]::GetFullPath($path)
   if (-not $full.StartsWith($base, [StringComparison]::OrdinalIgnoreCase)) {
     throw "Path is outside C:\sites: $full"
+  }
+}
+
+function Get-Sha256([string]$path) {
+  $hasher = [Security.Cryptography.SHA256]::Create()
+  $stream = [IO.File]::OpenRead($path)
+  try {
+    return [BitConverter]::ToString($hasher.ComputeHash($stream)).Replace('-', '')
+  } finally {
+    $stream.Dispose()
+    $hasher.Dispose()
   }
 }
 
@@ -37,6 +50,17 @@ try {
   }
   Assert-InSites $siteRoot
   Assert-InSites $stage
+  if ([string]::IsNullOrWhiteSpace($Zip)) {
+    $releases = @(Get-ChildItem -LiteralPath $PSScriptRoot -Filter 'selangorku-update-*.zip' -File)
+    if ($releases.Count -ne 1) {
+      throw "Keep exactly one selangorku-update-*.zip beside the BAT, or drag the desired ZIP onto the BAT. Found $($releases.Count)."
+    }
+    $zipPath = $releases[0].FullName
+  } elseif ([IO.Path]::IsPathRooted($Zip)) {
+    $zipPath = [IO.Path]::GetFullPath($Zip)
+  } else {
+    $zipPath = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot $Zip))
+  }
   if (-not (Test-Path -LiteralPath $zipPath)) { throw "ZIP not found beside this script: $zipPath" }
   if (-not (Test-Path -LiteralPath $siteBuild)) { throw "Current build not found: $siteBuild" }
   if (-not (Test-Path -LiteralPath (Join-Path $siteRoot 'node_modules\next\dist\bin\next'))) {
@@ -45,16 +69,16 @@ try {
   [void](Get-ScheduledTask -TaskName $taskName)
   if (Test-Path -LiteralPath $stage) { throw "Staging path already exists: $stage" }
 
-  $actualHash = (Get-FileHash -LiteralPath $zipPath -Algorithm SHA256).Hash
-  if ($actualHash -ne $expectedHash) { throw 'ZIP hash mismatch. Use the new logo + DSR release ZIP.' }
+  $actualHash = Get-Sha256 $zipPath
+  Write-Host "Release ZIP: $zipPath"
+  Write-Host "SHA256: $actualHash"
 
   Write-Host 'Extracting and checking the new release...'
   Expand-Archive -LiteralPath $zipPath -DestinationPath $stage
   $stageBuild = Join-Path $stage '.next'
   if (-not (Test-Path -LiteralPath $stageBuild)) { throw 'The ZIP does not contain .next.' }
-  if ((Get-Content -LiteralPath (Join-Path $stageBuild 'BUILD_ID') -Raw).Trim() -ne $expectedBuild) {
-    throw 'The ZIP contains the wrong Next.js build.'
-  }
+  $expectedBuild = (Get-Content -LiteralPath (Join-Path $stageBuild 'BUILD_ID') -Raw).Trim()
+  if ($expectedBuild -notmatch '^[A-Za-z0-9_-]{8,}$') { throw 'The ZIP contains an invalid Next.js build ID.' }
   foreach ($relative in @('public\rumah-selangorku-logo.png', 'app\icon.png', 'app\apple-icon.png')) {
     if (-not (Test-Path -LiteralPath (Join-Path $stage $relative))) { throw "Missing asset: $relative" }
   }
@@ -113,6 +137,7 @@ try {
       $response.Content.Contains('Anggaran DSR anda')) {
     throw 'Port 3100 still serves the old DSR page.'
   }
+  if (-not $response.Content.Contains($expectedBuild)) { throw 'Port 3100 is serving a different build.' }
   if (-not $response.Content.Contains('rumah-selangorku-logo.png')) { throw 'The new logo is missing from the page.' }
   if ((Invoke-WebRequest 'http://127.0.0.1:3100/icon.png' -UseBasicParsing -TimeoutSec 5).StatusCode -ne 200) {
     throw 'The favicon did not load.'

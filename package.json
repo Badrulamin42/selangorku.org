@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "release": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File deploy/make-release.ps1",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },

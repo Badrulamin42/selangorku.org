@@ -1,7 +1,11 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0deploy-selangorku.ps1"
+if "%~1"=="" (
+  powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0deploy-selangorku.ps1"
+) else (
+  powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0deploy-selangorku.ps1" -Zip "%~1"
+)
 set "result=%errorlevel%"
 if "%result%"=="0" (
   echo Deployment completed. You can close this window.

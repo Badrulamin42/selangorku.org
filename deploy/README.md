@@ -1,5 +1,20 @@
 # Windows Nginx deployment
 
+## Repeat site updates
+
+On the local Windows development computer, run `npm run release` from the
+repository root. It builds the site and creates a uniquely named
+`selangorku-update-<build-id>.zip` in the parent `Wanprop` folder, alongside
+`deploy-selangorku.bat` and `deploy-selangorku.ps1`. The ZIP excludes the
+development and build caches.
+
+Copy those three files to `C:\sites\` on the VPS, then right-click
+`deploy-selangorku.bat` and choose **Run as administrator**. Keep only one
+`selangorku-update-*.zip` beside the BAT, or drag the desired ZIP onto the BAT
+when older releases are still present. The PowerShell script checks the new
+build, swaps `.next` while the site is stopped, starts the scheduled task,
+verifies port 3100, and restores the previous build if a check fails.
+
 These are additional virtual hosts for the existing `cariproperty.my` Nginx
 configuration. Put the blocks inside its `http { ... }` section; do not replace
 the existing `cariproperty.my` blocks.
