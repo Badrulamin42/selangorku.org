@@ -35,3 +35,27 @@ or scheduled task. The Nginx blocks expect port 3100.
 The `www` hostname is intentionally omitted because it currently has no DNS
 record. Add its DNS record, Nginx `server_name`, and win-acme `--host` value
 before requesting a certificate that includes it.
+
+## Start Next.js after a VPS restart
+
+The temporary `npm run start` terminal process will stop when that terminal
+closes or the server reboots. After deploying the build and running
+`npm ci --omit=dev` in `C:\sites\selangorku-org`, use an elevated PowerShell
+prompt **on the Windows server** to register an automatic startup task:
+
+```powershell
+$sitePath = 'C:\sites\selangorku-org'
+$nodePath = (Get-Command node.exe).Source
+$nextCli = Join-Path $sitePath 'node_modules\next\dist\bin\next'
+if (-not (Test-Path -LiteralPath $nextCli)) { throw "Next.js is missing at $nextCli. Run npm ci --omit=dev first." }
+$action = New-ScheduledTaskAction -Execute $nodePath -Argument "`"$nextCli`" start -H 127.0.0.1 -p 3100" -WorkingDirectory $sitePath
+$trigger = New-ScheduledTaskTrigger -AtStartup
+$settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit ([TimeSpan]::Zero) -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 1) -MultipleInstances IgnoreNew -StartWhenAvailable
+Register-ScheduledTask -TaskName 'Selangorku Next.js' -Action $action -Trigger $trigger -Settings $settings -User 'SYSTEM' -RunLevel Highest
+Start-ScheduledTask -TaskName 'Selangorku Next.js'
+```
+
+Check with `Get-ScheduledTask -TaskName 'Selangorku Next.js'` and
+`Invoke-WebRequest http://127.0.0.1:3100 -UseBasicParsing`. Verify that the
+existing Nginx installation also starts after a reboot; win-acme has its own
+renewal task and does not start Nginx or Next.js.
