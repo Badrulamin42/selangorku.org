@@ -10,6 +10,8 @@ $taskName = 'Selangorku Next.js'
 $zipPath = $null
 $expectedBuild = $null
 $siteBuild = Join-Path $siteRoot '.next'
+$launcherPath = Join-Path $sitesRoot 'selangorku-start.cmd'
+$nextLogPath = Join-Path $sitesRoot 'selangorku-next.log'
 $stage = Join-Path $sitesRoot ('.selangorku-stage-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
 $backupPath = $null
 $siteStopped = $false
@@ -43,6 +45,17 @@ function Stop-RemainingSiteProcess {
   Stop-Process -Id $listener.OwningProcess -Force
 }
 
+function Wait-ForSite {
+  for ($attempt = 0; $attempt -lt 20; $attempt++) {
+    Start-Sleep -Seconds 1
+    try {
+      $result = Invoke-WebRequest 'http://127.0.0.1:3100/' -UseBasicParsing -TimeoutSec 3
+      if ($result.StatusCode -eq 200) { return $result }
+    } catch { }
+  }
+  throw 'Next.js did not respond on port 3100.'
+}
+
 try {
   $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
   if (-not $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
@@ -67,6 +80,12 @@ try {
     throw 'Next.js is not installed in C:\sites\selangorku-org\node_modules.'
   }
   [void](Get-ScheduledTask -TaskName $taskName)
+  Assert-InSites $launcherPath
+  Set-Content -LiteralPath $launcherPath -Value @(
+    '@echo off',
+    'cd /d C:\sites\selangorku-org',
+    '"C:\Program Files\nodejs\node.exe" "C:\sites\selangorku-org\node_modules\next\dist\bin\next" start -H 127.0.0.1 -p 3100 >> "C:\sites\selangorku-next.log" 2>&1'
+  ) -Encoding Ascii
   if (Test-Path -LiteralPath $stage) { throw "Staging path already exists: $stage" }
 
   $actualHash = Get-Sha256 $zipPath
@@ -107,6 +126,8 @@ try {
   $task = Get-ScheduledTask -TaskName $taskName
   if ($task.State -eq 'Running') { Stop-ScheduledTask -TaskName $taskName }
   $siteStopped = $true
+  $taskAction = New-ScheduledTaskAction -Execute 'C:\Windows\System32\cmd.exe' -Argument '/d /c "C:\sites\selangorku-start.cmd"' -WorkingDirectory $siteRoot
+  [void](Set-ScheduledTask -TaskName $taskName -Action $taskAction)
   Start-Sleep -Seconds 2
   Stop-RemainingSiteProcess
   for ($attempt = 0; $attempt -lt 10; $attempt++) {
@@ -124,15 +145,7 @@ try {
   Move-Item -LiteralPath $stageBuild -Destination $siteBuild
   Start-ScheduledTask -TaskName $taskName
 
-  $response = $null
-  for ($attempt = 0; $attempt -lt 20; $attempt++) {
-    Start-Sleep -Seconds 1
-    try {
-      $response = Invoke-WebRequest 'http://127.0.0.1:3100/' -UseBasicParsing -TimeoutSec 3
-      if ($response.StatusCode -eq 200) { break }
-    } catch { $response = $null }
-  }
-  if ($null -eq $response) { throw 'Next.js did not respond on port 3100.' }
+  $response = Wait-ForSite
   if ($response.Content.Contains('Lengkapkan jumlah pendapatan untuk melihat anggaran.') -or
       $response.Content.Contains('Anggaran DSR anda')) {
     throw 'Port 3100 still serves the old DSR page.'
@@ -147,6 +160,10 @@ try {
   exit 0
 } catch {
   Write-Host "DEPLOYMENT FAILED: $($_.Exception.Message)" -ForegroundColor Red
+  if (Test-Path -LiteralPath $nextLogPath) {
+    Write-Host 'Last Next.js startup log lines:'
+    Get-Content -LiteralPath $nextLogPath -Tail 25
+  }
   if ($siteStopped) {
     try {
       $task = Get-ScheduledTask -TaskName $taskName
@@ -163,6 +180,8 @@ try {
         Write-Host 'Previous build restored.'
       }
       Start-ScheduledTask -TaskName $taskName
+      [void](Wait-ForSite)
+      Write-Host 'Previous site is responding on port 3100.'
     } catch {
       Write-Host "Automatic recovery failed: $($_.Exception.Message)" -ForegroundColor Red
     }
