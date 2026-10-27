@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Rumah Selangorku 2026 | Projek, Syarat & Cara Mohon",
   description:
     "Semak projek Rumah Selangorku terkini, syarat kelayakan, panduan permohonan dan anggaran DSR dengan mudah.",
-  metadataBase: new URL("https://selangorku.org"),
+  metadataBase: new URL("https://rumahselangorku.online"),
   openGraph: {
     title: "Rumah Selangorku 2026",
     description: "Cari rumah mampu milik pilihan anda di seluruh Selangor.",

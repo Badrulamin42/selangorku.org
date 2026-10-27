@@ -53,3 +53,15 @@ export const projects: Project[] = [
   { name: "Selangorku Idaman BSP", type: "Apartment", price: "RM250,000", size: "1,022 sqft", rooms: "3", baths: "3", location: "Bandar Saujana Putra", status: "Habis Dijual", image: `${uploads}/2025/08/idaman-bsp-300x169.webp`, href: "https://selangorku.org/selangorku-idaman-bsp/" },
   { name: "Selangorku Idaman Melur", type: "Apartment", price: "RM250,000", size: "1,022 sqft", rooms: "3", baths: "3", location: "Cybersouth", status: "Habis Dijual", image: `${uploads}/2025/08/idaman-melur-1-300x169.webp`, href: "https://selangorku.org/selangorku-idaman-melur/" }
 ];
+
+export function projectSlug(project: Project) {
+  return new URL(project.href).pathname.split("/").filter(Boolean).at(-1) || "";
+}
+
+export function projectPath(project: Project) {
+  return `/projek/${projectSlug(project)}`;
+}
+
+export function findProject(slug: string) {
+  return projects.find((project) => projectSlug(project) === slug);
+}
