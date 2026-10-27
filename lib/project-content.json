@@ -1,0 +1,5360 @@
+{
+  "rumah-selangorku-u9-shah-alam": {
+    "sourceTitle": "Rumah Selangorku U9 Shah Alam",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "1,085 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "2 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "21 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "5 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Rumah Luas & Besar Hanya RM288,000",
+        "items": [
+          "LENGKAP PERABOT"
+        ],
+        "images": []
+      },
+      {
+        "category": "location",
+        "title": "Strategik Mudah Akses",
+        "items": [
+          "1km Lebuhraya DASH",
+          "1.2km ke UiTM P.Perdana",
+          "DASH 1km",
+          "Gutrie Expressway 11km",
+          "NKVE 14km",
+          "FEDERAL 18km",
+          "ELITE 32km",
+          "Airport Subang 9km",
+          "Shah Alam 12km",
+          "Kota Damansara 15km",
+          "Puncak Alam 17km",
+          "Sungai Buloh 20km",
+          "Petaling Jaya 23km"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/hero-image-1480x1080-2-scaled-1.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Susun Atur Kemas, Ideal & Praktikal",
+        "items": [
+          "1 Bilik Ensuite Tandas",
+          "Balkoni & Yard"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/Screenshot-2026-10-05-at-1.26.26-PM.png"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "14 Jenis Fasiliti Gaya Hidup Moden",
+        "items": [
+          "Dewan Serbaguna",
+          "Tadika & Bilik Bacaan",
+          "Taman Permainan & Laluan Refleksologi",
+          "Gelanggang Bola Keranjang",
+          "Gelanggang Badminton",
+          "Futsal"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku U9 Shah Alam",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM3,500 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM14,500",
+          "Suami/isteri belum miliki rumah selangorku",
+          "Suami & isteri tidak memiliki lebih 2 rumah",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak",
+          "SEMAK SYARAT KELAYAKAN RSKU"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Selangorku Akasia U9",
+        "items": [
+          "GAJI MINIMA RM3,500",
+          "BULANAN dari RM1,400",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/04/hero-image-1480x1080-2-scaled-1.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/Screenshot-2026-10-05-at-1.26.26-PM.png"
+    ],
+    "form": {
+      "id": "37",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju (Lokasi di Seksyen 14 Shah Alam)",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-klang": {
+    "sourceTitle": "Rumah Selangorku Bukit Raja@ Bukit Raja",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "1120 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "2 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "31 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "8 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/06/Residensi-2.png"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Strategik di Kawasan Matang",
+        "items": [
+          "5km Jarak Sekolah"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/06/37.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Susun Atur Kemas, Ideal & Praktikal",
+        "items": [
+          "3 Buah Bilik",
+          "Balkoni & Yard"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/06/CYBERJAYA.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "16 Jenis Fasiliti Gaya Hidup Terkini",
+        "items": [
+          "Taman Landskap",
+          "Swimming Pool",
+          "Wading Pool",
+          "Changing Room",
+          "Toilet",
+          "Gimnasium",
+          "Tempat BBQ",
+          "Outdoor Fitness Area",
+          "Taman Permainan Kanak-kanak",
+          "Dewan Serbaguna",
+          "Bilik Permainan Indoor",
+          "Surau",
+          "Taska",
+          "Perpustakaan",
+          "Dobi"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku Klang",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM3,500 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM14,500",
+          "Suami/isteri belum miliki rumah selangorku",
+          "Suami & isteri tidak memiliki lebih 2 rumah",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak",
+          "SEMAK SYARAT KELAYAKAN RSKU"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Selangorku Bukit Raja",
+        "items": [
+          "GAJI MINIMA RM3,500",
+          "BULANAN dari RM1,200",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%",
+          "Perabot Percuma"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/06/Residensi-2.png",
+      "https://selangorku.org/wp-content/uploads/2026/06/37.webp",
+      "https://selangorku.org/wp-content/uploads/2026/06/CYBERJAYA.webp"
+    ],
+    "form": {
+      "id": "39",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju (Lokasi di Bukit Raja Klang)",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "residensi-armani-putrajaya": {
+    "sourceTitle": "Residensi Armani Putrajaya",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "984 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "1-3 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "32 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "7 unit"
+      },
+      {
+        "label": "Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/06/Residensi-4.png"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Mewah & Ekslusif Dari RM230,000",
+        "items": [
+          "1/3 BILIK TIDUR 1/2 BILIK AIR"
+        ],
+        "images": []
+      },
+      {
+        "category": "location",
+        "title": "Strategik di Kawasan Matang",
+        "items": [
+          "Berdekatan Sekolah"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/06/42.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Susun Atur Kemas, Ideal & Praktikal",
+        "items": [
+          "3 Buah Bilik",
+          "Balkoni & Yard",
+          "SOHO 450sqft RM230,000",
+          "SOHO 550sqft RM250,000",
+          "APARTMENT 850sqft RM458,000",
+          "APARTMENT 1,000sqft RM548,000"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/06/76.png",
+          "https://selangorku.org/wp-content/uploads/2026/06/77.png",
+          "https://selangorku.org/wp-content/uploads/2026/06/78.png"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "Jenis Fasiliti Lengkap Gaya Hidup Terkini",
+        "items": [
+          "Taman Landskap",
+          "Swimming Pool",
+          "Wading Pool",
+          "Changing Room",
+          "Toilet",
+          "Gimnasium",
+          "Tempat BBQ",
+          "Outdoor Fitness Area",
+          "Taman Permainan Kanak-kanak",
+          "Dewan Serbaguna",
+          "Bilik Permainan Indoor",
+          "Surau",
+          "Taska",
+          "Perpustakaan",
+          "Dobi"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Mampu Milik",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM3,500 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM15,000",
+          "Suami/isteri belum miliki servis apartment",
+          "Suami & isteri tidak memiliki lebih 2 rumah",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak",
+          "SEMAK SYARAT KELAYAKAN RSKU"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Residensi Armani Putra",
+        "items": [
+          "GAJI MINIMA RM3,500",
+          "BULANAN dari RM900",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/06/Residensi-4.png",
+      "https://selangorku.org/wp-content/uploads/2026/06/42.webp",
+      "https://selangorku.org/wp-content/uploads/2026/06/76.png",
+      "https://selangorku.org/wp-content/uploads/2026/06/77.png",
+      "https://selangorku.org/wp-content/uploads/2026/06/78.png"
+    ],
+    "form": {
+      "id": "40",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju (Lokasi di Presint Diplomatik)",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "ara-grove-batang-kali": {
+    "sourceTitle": "Ara Grove Batang Kali",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "879 unit"
+      },
+      {
+        "label": "Jumlah Fasa",
+        "value": "3 Fasa"
+      },
+      {
+        "label": "Parking",
+        "value": "2 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "1 tingkat"
+      },
+      {
+        "label": "Title",
+        "value": "Individual"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Teres"
+      },
+      {
+        "label": "Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2029"
+      }
+    ],
+    "sections": [
+      {
+        "category": "amenities",
+        "title": "Sangat Dekat Kemudahan",
+        "items": [
+          "1.4km Sekolah",
+          "4km Econsave",
+          "4km Stesen Shell",
+          "5km Bank & Pos"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/56.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Landed Mampu Milik Aman & Damai",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/55.webp",
+          "https://selangorku.org/wp-content/uploads/2026/08/88.webp",
+          "https://selangorku.org/wp-content/uploads/2026/08/89.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Konsep Township Berpotensi Besar",
+        "items": [
+          "Taman Linear Sebelah Sungai",
+          "Trek Jogging",
+          "Taman Permainan Kanak-kanak",
+          "Gelanggang sukan"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/54-1024x747.webp"
+        ]
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Ara Grove Batang Kali",
+        "items": [
+          "GAJI MINIMA RM3,500",
+          "BULANAN dari RM1,400",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/17.png"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/08/56.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/55.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/88.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/89.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/90.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/54-1024x747.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/17.png"
+    ],
+    "form": null
+  },
+  "rumah-selangorku-gardens-idaman-rawang": {
+    "sourceTitle": "Rumah Selangorku Gardens Idaman Rawang",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "616 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "2 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "21 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "3 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "layout",
+        "title": "Layout Besar Hanya RM250,000",
+        "items": [
+          "LENGKAP PERABOT"
+        ],
+        "images": []
+      },
+      {
+        "category": "location",
+        "title": "Strategik, Mudah Akses, Dekat Lebuhraya",
+        "items": [
+          "Sebelah Sekolah"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/10/rumah-selangorku-rawang-lokasi.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Layout Praktikal Luas & Selesa",
+        "items": [
+          "Lengkap Perabot",
+          "Balkoni & Yard"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/10/rumah-selangorku-rawang-layout.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "10 Jenis Fasiliti Gaya Hidup Moden",
+        "items": [
+          "Dewan Serbaguna",
+          "Tadika & Bilik Bacaan",
+          "Taman Permainan & Laluan Refleksologi",
+          "Gelanggang Bola Keranjang",
+          "Gelanggang Badminton",
+          "Futsal"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku Gardens Idaman Rawang",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM2,800 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM15,000",
+          "Pernah miliki Rumah Selangorku LAYAK",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak",
+          "SEMAK SYARAT KELAYAKAN RSKU"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Selangorku Gardens Idaman Rawang",
+        "items": [
+          "GAJI MINIMA RM2,8000",
+          "BULANAN dari RM1,100",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/10/rumah-selangorku-rawang-lokasi.webp",
+      "https://selangorku.org/wp-content/uploads/2026/10/rumah-selangorku-rawang-layout.webp"
+    ],
+    "form": {
+      "id": "46",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Gallery di Kundang, Rawang",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "ppam-bandar-saujana-putra": {
+    "sourceTitle": "PPAM Bandar Saujana Putra",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "337 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "19 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "6 tingkat"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-19.webp"
+        ]
+      },
+      {
+        "category": "package",
+        "title": "Projek Pangsapuri Baharu dengan Pakej Fully Furnished",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/CYBERJAYA-8.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/CYBERJAYA-9.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Akses & Perhubungan",
+        "items": [
+          "Akses terus ke BSP / EITE Highway",
+          "Jarak dekat ke Putrajaya , Cyberjaya dan Puchong",
+          "±45 km ke KLIA dan KLIA2",
+          "±21 km ke Putrajaya Sentral"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-20.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-21.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "Institusi Pendidikan",
+        "items": [
+          "MAHSA University (±7 km)",
+          "Taylor’s International School Puchong (±9 km)",
+          "Multimedia University (±15 km)",
+          "Tenby International School (±17 km)",
+          "Universiti Putra Malaysia (±24 km)"
+        ],
+        "images": []
+      },
+      {
+        "category": "amenities",
+        "title": "Pusat Membeli-belah",
+        "items": [
+          "Lotus’s Bukit Puchong (±6 km)",
+          "AEON BIG Puchong Utama (±8 km)",
+          "DPULZE Shopping Centre (±16 km)",
+          "IOI City Mall & Alamanda Putrajaya"
+        ],
+        "images": []
+      },
+      {
+        "category": "amenities",
+        "title": "Rekreasi & Gaya Hidup",
+        "items": [
+          "Cyberjaya Lake Gardens",
+          "Putrajaya Wetlands Park",
+          "Palm Garden Golf Club",
+          "Kota Permai Golf & Country Club"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/44.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/45.webp",
+          "https://selangorku.org/wp-content/uploads/2025/07/11-3.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Apartment BSP Sutera",
+        "items": [
+          "Nama Projek: BSP Sutera",
+          "Siap Awal Tahun 2028"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai BSP Sutera",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/46.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/47.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Details Apartment",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "90% Perabot PERCUMA"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Mengapa Pilih BSP Sutera – PPAM Bandar Saujana Putra?",
+        "items": [
+          "Lokasi matang dan berkembang pesat",
+          "Akses lebuh raya yang mudah",
+          "Pakej fully furnished bernilai tinggi",
+          "Potensi kenaikan nilai hartanah jangka panjang"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-19.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/CYBERJAYA-8.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/CYBERJAYA-9.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-20.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-21.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/44.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/45.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/11-3.webp"
+    ],
+    "form": null
+  },
+  "rumah-teres-pulau-meranti": {
+    "sourceTitle": "Rumah Teres Pulau Meranti",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "52 unit"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/90.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Puchong Eksklusif Status Freehold",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/89.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Pulau Meranti, Puchong",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/35.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Pulau Meranti",
+        "items": [
+          "Nama Projek: Teres Pulau Meranti",
+          "Siap: Tahun 2027"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Teres Pulau Meranti",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/38.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/39.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/CYBERJAYA-7.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Puchong",
+        "items": [
+          "Rumah Landed",
+          "Freehold",
+          "Ada Balkoni",
+          "20 x 95 : RM799,000",
+          "20 x 72 : RM759,000",
+          "20 x 60 : RM619,000"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Kenapa Pilih Teres Puchong?",
+        "items": [
+          "✅ Lokasi strategik dalam Puchong , di Pulau Meranti.",
+          "✅ Rumah dengan reka bentuk moden dan keluasan yang selesa",
+          "✅ Pegangan bebas – milik kekal",
+          "✅ Komuniti eksklusif – hanya 52 unit",
+          "✅ Sesuai untuk keluarga besar – 4 bilik tidur dan 3 bilik air"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/40.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/36.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/37.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/01/90.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/89.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/35.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/38.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/39.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/CYBERJAYA-7.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/40.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/36.webp"
+    ],
+    "form": null
+  },
+  "selangorku-setia-alam": {
+    "sourceTitle": "Rumah Selangorku Setia Alam",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "400 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "28 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "7 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/selangorku-setia-alam.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Rumah Selangorku Setia Alam: Lokasi Strategik",
+        "items": [
+          "🏥 Columbia Asia Hospital Setia Alam – pusat perubatan utama dalam kawasan perbandaran.",
+          "🛒 Lotus’s / Tesco & Giant Hypermarket – untuk keperluan harian dan barangan runcit."
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/32-1.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/30-1.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Setia Alam",
+        "items": [
+          "Lebih 30 Fasiliti Kondo",
+          "Siap Tahun 2029"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Setia Alam",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/CYBERJAYA-5.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Maklumat Apartment",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "70% Perabot PERCUMA"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/83.png",
+          "https://selangorku.org/wp-content/uploads/2025/08/84.png",
+          "https://selangorku.org/wp-content/uploads/2025/08/85.png"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/selangorku-setia-alam.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/32-1.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/30-1.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/CYBERJAYA-5.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/83.png",
+      "https://selangorku.org/wp-content/uploads/2025/08/84.png",
+      "https://selangorku.org/wp-content/uploads/2025/08/85.png"
+    ],
+    "form": {
+      "id": "11",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_Gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "checkbox[]",
+          "label": "Nyatakan Sebab Anda Berminat Projek Ini",
+          "type": "checkbox",
+          "required": true,
+          "options": [
+            "Lokasi Strategik",
+            "Rumah Besar",
+            "Duduk Sendiri",
+            "Investment"
+          ]
+        }
+      ]
+    }
+  },
+  "rumawip-residensi-melati": {
+    "sourceTitle": "Rumawip Residensi Melati @ Setapak Kuala Lumpur",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "725 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "1/2 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "22 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "4 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Rumah Luas & Besar Hanya RM300,000",
+        "items": [
+          "LENGKAP PERABOT"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Ditengah Kuala Lumpur",
+        "items": [
+          "Hadapan M3 Mall",
+          "600m LRT Taman Melati",
+          "Akses Mudah MRR2",
+          "M3 Mall 0.1km",
+          "Pasaraya 0.2km",
+          "Speedmart 0.2km",
+          "Kedai Mamak 0.2km",
+          "Restoren Thai 0.2km",
+          "Stesen LRT Taman Melati 0.6km",
+          "Hentian Bas M3 0.6km",
+          "SK/ SMK Gombak Setia 1km",
+          "SMK Setapak Indah 2km",
+          "Klinik & Farmasi 1-2km",
+          "Balai Polis Gombak 0.7km"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumawip-residensi-melati.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Susun Atur Kemas, Ideal & Praktikal",
+        "items": [
+          "1 Bilik Ensuite Tandas",
+          "Balkoni & Yard"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumawip-residensi-melati-pelan.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "13 Jenis Fasiliti Gaya Hidup Ibu Kota",
+        "items": [
+          "Gimnasium",
+          "Dewan Serbaguna",
+          "Kolam Renang Dewasa",
+          "Kolam Renang Kanak-kanak",
+          "Taman Permainan",
+          "Bilik Persalinan",
+          "Bilik Komputer",
+          "Bilik Bacaan",
+          "Bilik Permainan",
+          "Ofis management",
+          "Surau"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumawip Residensi Melati",
+        "items": [
+          "Berumur 21 tahun ke atas",
+          "Gaji melebihi RM3,500 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM15,000",
+          "Suami/isteri belum miliki rumah di KL",
+          "Pemohon berstatus bujang layak mohon",
+          "Bekerja/ Menetap/ Lahir di KL",
+          "Bukan IC wilayah juga layak"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumawip-residensi-melati-klcc.webp"
+        ]
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Rumawip Residensi Melati",
+        "items": [
+          "GAJI MINIMA RM3,500",
+          "BULANAN dari RM1,500",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/04/rumawip-residensi-melati.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/rumawip-residensi-melati-pelan.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/rumawip-residensi-melati-klcc.webp"
+    ],
+    "form": {
+      "id": "43",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Sale Booth Pemaju (Lokasi di M3 Mall)",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-jenderam": {
+    "sourceTitle": "Rumah Selangorku Jenderam",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "68 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "2 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "4 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "Tangga"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Townhouse"
+      },
+      {
+        "label": "Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2024"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2027"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Rumah Landed, Besar Hanya RM230,000",
+        "items": [
+          "LENGKAP PERABOT"
+        ],
+        "images": []
+      },
+      {
+        "category": "location",
+        "title": "Mudah Akses & Strategik",
+        "items": [
+          "5km Hiway Elite",
+          "3km Uni Aviation"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/84.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Mampu Milik Tetapi Besar & Luas",
+        "items": [
+          "Lengkap Perabot",
+          "Ada Yard"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/85.webp",
+          "https://selangorku.org/wp-content/uploads/2026/08/86.webp",
+          "https://selangorku.org/wp-content/uploads/2026/08/87.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Selamat Berpengawal Gated & Guarded",
+        "items": [
+          "CCTV",
+          "Palang Traffic",
+          "Pengawal Keselamatan",
+          "Sistem pintu RFID",
+          "Taman Permainan",
+          "Pejabat"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/08/hero-image-1480x1080-4-1024x747.webp"
+        ]
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku Jenderam Damai",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM2,800 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM14,500",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak",
+          "SEMAK SYARAT KELAYAKAN RSKU"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Selangorku Jenderam Damai",
+        "items": [
+          "GAJI MINIMA RM2,8000",
+          "BULANAN dari RM1,000",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/08/84.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/85.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/86.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/87.webp",
+      "https://selangorku.org/wp-content/uploads/2026/08/hero-image-1480x1080-4-1024x747.webp"
+    ],
+    "form": null
+  },
+  "selangorku-lagenda-ardea": {
+    "sourceTitle": "Selangorku Lagenda Ardea",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Fasa",
+        "value": "1, 2 & 3"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Lagenda Ardea Pilihan Tepat Untuk Rumah Landed",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/14.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/15.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Keterangan Projek",
+        "items": [
+          "Nama Projek: Selangorku Lagenda Ardea",
+          "Jumlah 1 fasa: 700 Buah",
+          "Pembangunan: Taman Perumahan & Lot Komersil",
+          "Siap Tahun 2027 & 2028"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Maklumat Rumah",
+        "items": [
+          "Ada Porch",
+          "Ada Extraland Dapur"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/10.png",
+          "https://selangorku.org/wp-content/uploads/2025/08/11-2.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/14.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/15.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/10.png",
+      "https://selangorku.org/wp-content/uploads/2025/08/11-2.webp"
+    ],
+    "form": {
+      "id": "3",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang_1",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "daffodil-alam-suria-puncak-alam": {
+    "sourceTitle": "Daffodil Alam Suria, Puncak Alam",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "3"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "354 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "18 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/02/101.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kondo Daffodil IJM – Kondominium di Puncak Alam",
+        "items": [
+          "Miliki kondominium 3 bilik pada harga Rumah Selangorku di Puncak Alam."
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/02/69.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Alam Suria, Puncak Alam",
+        "items": [
+          "Persekitaran perumahan yang sedang berkembang",
+          "Akses ke kemudahan asas harian",
+          "Sesuai untuk kediaman sendiri dalam jangka panjang"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Kenapa Pilih Kondo Daffodil?",
+        "items": [
+          "Unit 3 bilik tidur yang praktikal untuk kegunaan harian",
+          "Reka bentuk kondominium moden",
+          "Sesuai untuk didiami sendiri atau perancangan masa hadapan"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/02/103.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kondo Daffodil",
+        "items": [
+          "Siap Q4 2027"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Daffodil Alam Suria, Puncak Alam",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/02/68-1.webp",
+          "https://selangorku.org/wp-content/uploads/2026/02/67.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kenapa Rumah Jenis Kondo Semakin Dicari?",
+        "items": [
+          "Kos penyelenggaraan berpusat",
+          "Gaya hidup moden",
+          "Keselamatan lebih terurus",
+          "Pasangan muda",
+          "Keluarga kecil",
+          "Pembeli yang ingin tinggal berhampiran kawasan bandar"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/02/102.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kondominium",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "Semua Kos Guaman PERCUMA"
+        ],
+        "images": []
+      },
+      {
+        "category": "package",
+        "title": "Grab Pakej Early Bird TERUS DAFTAR",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/elementor/thumbs/RM-2-rabyweeoxnkgaotj6eqgihbvwike3mhg4y0s2o9kz8.png"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/02/101.webp",
+      "https://selangorku.org/wp-content/uploads/2026/02/69.webp",
+      "https://selangorku.org/wp-content/uploads/2026/02/103.webp",
+      "https://selangorku.org/wp-content/uploads/2026/02/68-1.webp",
+      "https://selangorku.org/wp-content/uploads/2026/02/67.webp",
+      "https://selangorku.org/wp-content/uploads/2026/02/102.webp",
+      "https://selangorku.org/wp-content/uploads/elementor/thumbs/RM-2-rabyweeoxnkgaotj6eqgihbvwike3mhg4y0s2o9kz8.png"
+    ],
+    "form": {
+      "id": "30",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "selangorku-puncak-alam": {
+    "sourceTitle": "Selangorku Puncak Alam",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "1 blok: 524 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "25 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "7 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/97.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Puncak Alam Rumah Mampu Milik!",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/selangorku-puncak-alam.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/lokasi-idaman-perdana.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Puncak Alam",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-1-1.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Puncak Alam",
+        "items": [
+          "Nama Projek: Idaman Perdana"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Selangorku Puncak Alam",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "80% Perabot PERCUMA"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/5-e1755330338384.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/97.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/selangorku-puncak-alam.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/lokasi-idaman-perdana.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-1-1.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/5-e1755330338384.webp"
+    ],
+    "form": {
+      "id": "7",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang_1",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-damansara": {
+    "sourceTitle": "Rumah Selangorku Damansara @ Residensi Kamelia",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "602 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "1 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "26 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "4 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2024"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2028"
+      }
+    ],
+    "sections": [
+      {
+        "category": "location",
+        "title": "Strategik Mudah Akses",
+        "items": [
+          "500m MRT Damansara Barat",
+          "Hanya 3km ke Lebuhraya LDP",
+          "LDP 3km",
+          "DUKE2 3km",
+          "MRR2 3km",
+          "NKVE 5km",
+          "DASH 6km",
+          "SPRINT 6km",
+          "Lotus 2.9km",
+          "The Curve/ IKEA/ IPC 5.4km",
+          "Parkcity Medical Center 4.5km",
+          "KPJ Damansara Specialist 4.5km",
+          "1 Utama 7.3km"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/residensi-kamelia.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Simple Praktikal Bujang & Keluarga Kecil",
+        "items": [
+          "1 Bilik Ensuite Tandas",
+          "Ada Yard Dapur"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-damansara-3.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "14 Jenis Fasiliti Gaya Hidup Kondusif",
+        "items": [
+          "Trek Joging",
+          "Taman Permainan",
+          "Kolam Renang Dewasa",
+          "Kolam Renang Kanak-kanak",
+          "Ruang BBQ",
+          "Bilik Persalinan",
+          "Surau",
+          "Bilik Serbaguna",
+          "Tadika"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku Damansara",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM3,000 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM15,000",
+          "Pernah miliki Rumah Selangorku LAYAK",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Residensi Kamelia",
+        "items": [
+          "GAJI MINIMA RM3,000",
+          "BULANAN dari RM1,000",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/04/residensi-kamelia.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-damansara-3.webp"
+    ],
+    "form": {
+      "id": "35",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-bandar-sunway": {
+    "sourceTitle": "Rumah Selangorku Bandar Sunway",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "734 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "1 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "34 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "5 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "layout",
+        "title": "Layout Mewah Hanya RM265,000",
+        "items": [
+          "LENGKAP PERABOT"
+        ],
+        "images": []
+      },
+      {
+        "category": "location",
+        "title": "Mewah, Strategik & Elit",
+        "items": [
+          "800m BRT Sunmed",
+          "1.2km Taylor Colleague"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/07/47.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Angkanya Kecil Tetapi Besar & Luas",
+        "items": [
+          "Lengkap Perabot",
+          "Balkoni & Yard"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/07/CYBERJAYA-2.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "30 Jenis Fasiliti Gaya Hidup Mewah",
+        "items": [
+          "Sauna",
+          "Gymnasium",
+          "Kolam Renang",
+          "Trek Joging",
+          "Dewan Serbaguna",
+          "Tadika & Bilik Bacaan",
+          "Taman Permainan & Laluan Refleksologi",
+          "Gelanggang Bola Keranjang",
+          "Gelanggang Badminton",
+          "Futsal"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku Bandar Sunway",
+        "items": [
+          "Berumur 18 tahun ke atas",
+          "Gaji melebihi RM2,800 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM15,000",
+          "Pernah miliki Rumah Selangorku LAYAK",
+          "Pemohon berstatus bujang layak mohon",
+          "Pindah milik hanya selepas 5 tahun",
+          "Bukan IC Selangorku juga layak",
+          "SEMAK SYARAT KELAYAKAN RSKU"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Selangorku Bandar Sunway",
+        "items": [
+          "GAJI MINIMA RM2,8000",
+          "BULANAN dari RM1,200",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/07/47.webp",
+      "https://selangorku.org/wp-content/uploads/2026/07/CYBERJAYA-2.webp"
+    ],
+    "form": {
+      "id": "42",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju (Lokasi berhampiran D7 (D'Seven Lagoon Perdana))",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-puchong-jaya": {
+    "sourceTitle": "Rumah Selangorku Puchong Jaya",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "3"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "15"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "500 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "45 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "1-2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Ringkasan Rumah Selangorku Puchong Jaya",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/169-1280x720-1.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Puchong Jaya",
+        "items": [
+          "Siap Q4 2027"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong-2.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Puchong, Sebelah IOI Mall Puchong, hadapan stesen LRT Puchong Jaya",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong-4.webp"
+        ]
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumah Selangorku Puchong",
+        "items": [
+          "Warganegara Malaysia (suami & isteri)",
+          "18 tahun ke atas, bujang LAYAK",
+          "Pendapatam isi rumah tidak melebihi RM15,000 sebulan.",
+          "Pernah beli rumah selangorku jenis kediaman LAYAK mohon."
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong-1.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Puchong Jaya",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/70.webp",
+          "https://selangorku.org/wp-content/uploads/2026/04/71.webp",
+          "https://selangorku.org/wp-content/uploads/2026/04/72.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Servis Apartment",
+        "items": [
+          "2/3 Bilik Tidur 1/2 Bilik Air",
+          "Transit Oriented Development",
+          "Investment",
+          "Semua Kos Guaman PERCUMA",
+          "RSKU 550sqft (2R 1B) RM270k",
+          "UNIT BIASA 700sqft (2R 2B) RM390k",
+          "UNIT BIASA 850sqft (3R 2B) RM480k"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "TERUS DAFTAR",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/elementor/thumbs/RM-2-rabyweeoxnkgaotj6eqgihbvwike3mhg4y0s2o9kz8.png"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/169-1280x720-1.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong-2.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong-4.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/rumah-selangorku-puchong-1.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/70.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/71.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/72.webp"
+    ],
+    "form": {
+      "id": "32",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-cyberjaya": {
+    "sourceTitle": "Rumah Selangorku Cyberjaya",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "4"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "600 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "25 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "7 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/48.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Cyberjaya, Projek Yang Ditunggu Ramai",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/11-1200x1200-6.webp",
+          "https://selangorku.org/wp-content/uploads/2025/07/11-1200x1200-7.webp",
+          "https://selangorku.org/wp-content/uploads/2025/07/23.png"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Cyberjaya",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/24.png",
+          "https://selangorku.org/wp-content/uploads/2025/07/26.png",
+          "https://selangorku.org/wp-content/uploads/2025/07/25.png"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Residensi Ilham Cyberjaya",
+        "items": [
+          "Nama Projek: Ilham Residensi",
+          "Siap Hujung Tahun 2028"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Cyberjaya",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/residensi-ilham-layout-1.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Details Apartment",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "80% Perabot PERCUMA",
+          "Corner lot/end: RM300,000"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/07/48.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/11-1200x1200-6.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/11-1200x1200-7.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/23.png",
+      "https://selangorku.org/wp-content/uploads/2025/07/24.png",
+      "https://selangorku.org/wp-content/uploads/2025/07/26.png",
+      "https://selangorku.org/wp-content/uploads/2025/07/25.png",
+      "https://selangorku.org/wp-content/uploads/2025/07/11-3.webp"
+    ],
+    "form": {
+      "id": "21",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Bersih (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Nyatakan Sebab Memilih Projek Ini",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Sekadar Survey",
+            "Saya Betul2 Berminat",
+            "Lokasi Strategik",
+            "Rumah Luas & Besar",
+            "Harga Mampu Milik"
+          ]
+        }
+      ]
+    }
+  },
+  "kita-sejati-cybersouth": {
+    "sourceTitle": "Kita Sejati @ Cybersouth",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "2"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "1,054 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "25 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "7 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/99.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kita Sejati Pilihan Utama di Cybersouth",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-5.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-6.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Bandar Cybersouth",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/36.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/37.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/38.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kita Sejati @ Cybersouth",
+        "items": [
+          "Nama Projek: Kita Sejati",
+          "Siap Pembinaan: Q4 2025"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Kita Sejati @ Cybersouth",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/11-1200x1200-8.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Detail Kondo",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "95% Perabot PERCUMA",
+          "RM320,000"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/11-1200x1200-9.webp"
+        ]
+      },
+      {
+        "category": "package",
+        "title": "Percuma 95% Perabot!",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/41.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/42.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Siap Tahun Ini!!",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/43.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/99.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-5.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-6.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/36.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/37.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/38.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/39.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/40.webp"
+    ],
+    "form": {
+      "id": "10",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_hutang_1",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "kondo-vista-bayu": {
+    "sourceTitle": "Kondo Vista Bayu @ Kajang",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "1 blok: 187 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "8 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "6 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2-3 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/98.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Kondominium Vista Bayu, Mewah, Lokaliti Strategik Bangi & Kajang!",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/25.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/30.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik Sungai Ramal Kajang",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/28.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/29.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/27.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kondo Vista Bayu",
+        "items": [
+          "Nama Projek: Vista Bayu",
+          "Siap Tahun 2027"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Kondo Vista Bayu @ Kajang",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/21.png",
+          "https://selangorku.org/wp-content/uploads/2025/08/22.png",
+          "https://selangorku.org/wp-content/uploads/2025/08/23.png"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Details Kondo",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "Kondominium Eksklusif Low Density"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/98.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/25.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/30.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/28.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/29.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/27.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/21.png",
+      "https://selangorku.org/wp-content/uploads/2025/08/22.png"
+    ],
+    "form": {
+      "id": "9",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_hutang_1",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-semenyih-diamond-city": {
+    "sourceTitle": "Rumah Selangorku Semenyih Diamond City",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "208 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "18 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "5 tingkat"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-22.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Diamond City Konsep Low Density & Furnished",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/53.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "Kemudahan Sekitar Utama",
+        "items": [
+          "University of Nottingham (±4.1 km)",
+          "SMK Engku Husain (±4.9 km)",
+          "Lotus’s Semenyih (±6.2 km)",
+          "Setia EcoHill Mall (±6.5 km)"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/52.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Persekitaran Eksekutif & Selamat",
+        "items": [
+          "Sistem keselamatan 2 lapisan (gated & guarded)",
+          "Akses RFID",
+          "Rondaan keselamatan 24 jam"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/48.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/50.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/49.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Semenyih",
+        "items": [
+          "Nama Projek: Vista Azalea",
+          "Siap Hujung Tahun 2028"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Vista Azalea",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/55.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/56.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/54.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Luas & Praktikal",
+        "items": [
+          "Ruang tamu dan ruang makan yang luas",
+          "Siling tinggi (±3 meter) untuk pengudaraan dan pencahayaan semula jadi",
+          "Susun atur dapur dan yard yang praktikal"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Details Apartment",
+        "items": [
+          "Low Density",
+          "Ada Yard Dapur",
+          "90% Perabot PERCUMA"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Kenapa Pilih Rumah Selangorku Semenyih di Diamond City?",
+        "items": [
+          "Pegangan Freehold",
+          "Konsep low density (208 unit sahaja)",
+          "Pakej perabot percuma bernilai tinggi",
+          "Lokasi berkembang pesat di Semenyih",
+          "Sesuai untuk pembeli rumah pertama"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/51.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/01/169-1280x720-22.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/53.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/52.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/48.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/50.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/49.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/55.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/56.webp"
+    ],
+    "form": {
+      "id": "31",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_gaji",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-bangi": {
+    "sourceTitle": "Rumah Selangorku Bangi",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "3"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "1 blok: 286 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "20 tingkat Unit Kediaman"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "7 tingkat"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/169-1280x720-15.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kenali Rumah Selangorku Bangi @ Alam Sari",
+        "items": [
+          "Dengan harga bermula serendah RM262,000 , projek ini menawarkan unit yang moden dan selesa untuk didiami."
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img19.jpg"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik Rumah Selangorku Alam Sari",
+        "items": [
+          "Stesen Komuter UKM",
+          "MRT Kajang",
+          "German-Malaysian Institute (GMI)",
+          "Malaysian France Institute (MFI)",
+          "Star Grocer",
+          "Lotus’s",
+          "Pasaraya CS"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img164.jpg",
+          "https://selangorku.org/wp-content/uploads/2025/09/img167.jpg"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Bangi",
+        "items": [
+          "Nama Projek: Residensi Suria"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Bangi",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/70.png",
+          "https://selangorku.org/wp-content/uploads/2025/09/69.png"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Alam Sari",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "PERCUMA Perabot Lengkap"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img40.jpg",
+          "https://selangorku.org/wp-content/uploads/2025/09/img39.jpg",
+          "https://selangorku.org/wp-content/uploads/2025/09/img93.jpg"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kelebihan Eksklusif Rumah Selangorku Bangi @ Alam Sari",
+        "items": [
+          "Freehold (Pegangan Kekal) – anda memiliki hartanah ini untuk selama-lamanya, tanpa had tempoh.",
+          "Nilai pelaburan lebih kukuh kerana hartanah freehold biasanya lebih tinggi nilainya berbanding leasehold.",
+          "Warisan masa depan keluarga kerana boleh dipindah milik kepada generasi seterusnya tanpa had masa.",
+          "Percuma 2 lot parkir kereta untuk setiap unit.",
+          "Keselamatan 24 jam dengan pondok pengawal & akses kad."
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/09/169-1280x720-15.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img19.jpg",
+      "https://selangorku.org/wp-content/uploads/2025/09/img164.jpg",
+      "https://selangorku.org/wp-content/uploads/2025/09/img167.jpg",
+      "https://selangorku.org/wp-content/uploads/2025/09/70.png",
+      "https://selangorku.org/wp-content/uploads/2025/09/69.png",
+      "https://selangorku.org/wp-content/uploads/2025/09/img40.jpg",
+      "https://selangorku.org/wp-content/uploads/2025/09/img39.jpg"
+    ],
+    "form": {
+      "id": "15",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_hutang_1",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "rumah-selangorku-semenyih": {
+    "sourceTitle": "Rumah Selangorku Semenyih",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "4"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "1 blok: 300 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "22 tingkat Unit Kediaman"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "8 tingkat"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/169-1280x720-14.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Ringkasan Rumah Selangorku Semenyih @ Eco Majestic",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img39.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Rumah Selangorku Semenyih yang Strategik",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img159.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/img158.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Semenyih",
+        "items": [
+          "Nama Projek: Pangsapuri Selangorku Suasana"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Semenyih",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img17.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/img46.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Eco Majestic",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "PERCUMA Perabot Lengkap"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/img37.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/img38.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Keistimewaan Rumah Selangorku Eco Majestic",
+        "items": [
+          "Percuma 2 lot parkir kereta bagi setiap unit.",
+          "Siap dengan perabot asas , jimat kos tambahan pembelian perabot.",
+          "Keselamatan 24 jam dengan pondok pengawal & akses kad."
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/09/169-1280x720-14.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img39.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img159.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img158.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img17.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img46.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img37.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/img38.webp"
+    ],
+    "form": {
+      "id": "14",
+      "fields": [
+        {
+          "name": "nama[first_name]",
+          "label": "Nama",
+          "type": "text",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "No_Telefon",
+          "label": "No Telefon",
+          "type": "tel",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Pemilikan_Rumah",
+          "label": "Adakah Suami atau Isteri Sudah Miliki Rumah?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Belum",
+            "Ya"
+          ]
+        },
+        {
+          "name": "Jumlah_Rumah",
+          "label": "Jumlah Pemilikan Rumah Sekarang (Suami + Isteri)",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "1 Buah",
+            "Lebih 2 Buah"
+          ]
+        },
+        {
+          "name": "Sektor_Pekerjaan",
+          "label": "Sektor Pekerjaan Anda.",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Kerajaan",
+            "Swasta",
+            "Sendiri"
+          ]
+        },
+        {
+          "name": "Daftar_LHDN",
+          "label": "Adakah Anda Pembayar Cukai LHDN?",
+          "type": "radio",
+          "required": false,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Jumlah_hutang_1",
+          "label": "Jumlah Pendapatan Kasar (Suami + Isteri) Sebulan Mengikut Slip Gaji",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Jumlah_hutang",
+          "label": "Nyatakan Jumlah Hutang Bank Sebulan (Suami+Isteri)",
+          "type": "number",
+          "required": true,
+          "options": []
+        },
+        {
+          "name": "Minat_ke_gallery",
+          "label": "Adakah Berminat Ke Gallery?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Ya",
+            "Tidak"
+          ]
+        },
+        {
+          "name": "Tarikh_appointment",
+          "label": "Pilih Tarikh Melawat Ke Gallery Pemaju",
+          "type": "text",
+          "required": true,
+          "options": []
+        }
+      ]
+    }
+  },
+  "perumahan-penjawat-awam-myra-dahlia": {
+    "sourceTitle": "Rumah Penjawat Awam Myra Dahlia",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "480 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "25 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "7 tingkat Unit Rumah"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/ppam-myra-dahlia.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Rumah Penjawat Awam Myra Dahlia Pilihan Terbaik Kawasan Pinggiran Putrajaya",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/Screenshot-2025-07-30-at-11.40.59-AM.webp",
+          "https://selangorku.org/wp-content/uploads/2025/07/12.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Keterangan Projek",
+        "items": [
+          "Nama Projek: PPAM Myra Dahlia",
+          "Siap Pembinaan: 2027"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "PPAM Myra Dahlia",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "95% Perabot PERCUMA"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/11-1200x1200-2.webp"
+        ]
+      },
+      {
+        "category": "package",
+        "title": "Percuma 95% Perabot!",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/07/townproject7.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/07/ppam-myra-dahlia.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/Screenshot-2025-07-30-at-11.40.59-AM.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/12.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/11-1200x1200-2.webp",
+      "https://selangorku.org/wp-content/uploads/2025/07/townproject7.webp"
+    ],
+    "form": null
+  },
+  "rumah-intan-baiduri": {
+    "sourceTitle": "Rumah Teres Intan Baiduri",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Fasa",
+        "value": "1"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/47.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Intan Baiduri Landed Terbaik Di Salak Tinggi",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/intan-baiduri.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/14-1.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Salak Tinggi",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/16.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/17.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/18.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Intan Baiduri",
+        "items": [
+          "Nama Projek: Taman Intan Baiduri",
+          "Jumlah 1 fasa: 70 Buah",
+          "Pembangunan: Taman Perumahan",
+          "Siap Tahun 2026"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Teres Intan Baiduri",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/intan-baiduri-master.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/intan-baiduri-pelan.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Details Rumah",
+        "items": [
+          "Syiling tinggi 14 kaki",
+          "Porch Muat 2 Kereta",
+          "Ada Yard Belakang"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/intan-baiduri-klia.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/47.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/intan-baiduri.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/14-1.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/16.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/17.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/18.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/19.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/intan-baiduri-master.webp"
+    ],
+    "form": null
+  },
+  "rumah-kota-warisan": {
+    "sourceTitle": "Rumah Teres Kota Warisan",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Fasa",
+        "value": "1"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/96.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Terbaik Di Kota Warisan, Sepang",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/21.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Kota Warisan",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/19.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Teres Kota Warisan",
+        "items": [
+          "Nama Projek: Taman Warisan Hijauan",
+          "Jumlah 1 fasa: 69 Buah",
+          "Pembangunan: Taman Perumahan",
+          "Siap Tahun 2027"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Kota Warisan",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/22.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/23.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Perihal Rumah",
+        "items": [
+          "Syiling tinggi 14 kaki",
+          "Porch Muat 2 Kereta"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/96.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/21.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/19.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/22.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/23.webp"
+    ],
+    "form": null
+  },
+  "rumah-teres-kg-lombong": {
+    "sourceTitle": "Rumah Teres Kg Lombong",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "45 unit"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/71.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Rumah Teres Kg Lombong: Pilihan Kediaman Moden & Strategik di Shah Alam",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/15.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di Shah Alam",
+        "items": [
+          "Antara pusat membeli-belah berhampiran ialah Quayside Mall (2.7 km) dan Sanctuary Mall (4.7 km) ."
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/72.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/73.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Kampung Lombong",
+        "items": [
+          "Nama Projek: Tulip 5",
+          "Siap: Tahun 2026"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Teres Kg Lombong",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/14.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Taman Tulip 5",
+        "items": [
+          "Timber Flooring",
+          "Rail Tangga Kayu Meranti",
+          "Extraland Belakang"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/75.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/74.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/76.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/09/71.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/15.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/72.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/73.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/14.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/75.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/74.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/76.webp"
+    ],
+    "form": null
+  },
+  "rumah-teres-jalan-kebun": {
+    "sourceTitle": "Rumah Teres Jalan Kebun",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "22 unit"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/80.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Taman Maya Seksyen 30 Shah Alam –Teres 2 Tingkat Freehold",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/82.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Jalan Kebun",
+        "items": [
+          "Nama Projek: Taman Maya",
+          "Siap: Tahun 2026"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Teres Jalan Kebun",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/CYBERJAYA-4.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Taman Maya",
+        "items": [
+          "Rumah Landed",
+          "Freehold"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Kenapa Pilih Taman Maya?",
+        "items": [
+          "✅ Lokasi strategik di Shah Alam , di Jalan Kebun",
+          "✅ Rumah dengan reka bentuk moden dan keluasan yang selesa",
+          "✅ Pegangan bebas – milik kekal",
+          "✅ Komuniti eksklusif – hanya 22 unit",
+          "✅ Sesuai untuk keluarga besar – 4 bilik tidur dan 3 bilik air"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/81.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/10/80.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/82.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/CYBERJAYA-4.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/81.webp"
+    ],
+    "form": null
+  },
+  "residensi-aman-madani": {
+    "sourceTitle": "Residensi Aman Madani @ RUMAWIP Bandar Sri Permaisuri",
+    "facts": [
+      {
+        "label": "Jumlah Unit",
+        "value": "2,516 unit"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "3 blok"
+      },
+      {
+        "label": "Parking",
+        "value": "1 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "55 tingkat"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "10 unit"
+      },
+      {
+        "label": "Milikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jenis",
+        "value": "Apartment"
+      },
+      {
+        "label": "Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Tahun Bina",
+        "value": "2026"
+      },
+      {
+        "label": "Tahun Siap",
+        "value": "2030"
+      }
+    ],
+    "sections": [
+      {
+        "category": "location",
+        "title": "Strategik Mudah Akses",
+        "items": [
+          "3 Stesen Pengangkutan LRT & MRT3",
+          "Jarak 500m SK & SMK (Baharu)",
+          "1km Jarak PPUKM"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/Screenshot-2026-06-11-at-9.09.26-PM-scaled.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Susun Atur Kemas, Ideal & Praktikal",
+        "items": [
+          "3 Buah Bilik",
+          "Lengkap Balkoni"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/04/residensi-aman-madani-3-scaled.webp"
+        ]
+      },
+      {
+        "category": "amenities",
+        "title": "20 Jenis Fasiliti Gaya Hidup Moden Ibu Kota",
+        "items": [
+          "Taman Landskap",
+          "Swimming Pool",
+          "Wading Pool",
+          "Changing Room",
+          "Toilet",
+          "Gimnasium",
+          "Tempat BBQ",
+          "Outdoor Fitness Area",
+          "Taman Permainan Kanak-kanak",
+          "Dewan Serbaguna",
+          "Bilik Permainan Indoor",
+          "Surau",
+          "Taska",
+          "Perpustakaan",
+          "Dobi"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Syarat Permohonan Rumawip Bandar Sri Permaisuri @ Residensi Aman Madani",
+        "items": [
+          "Berumur 21 tahun ke atas",
+          "Gaji melebihi RM3,500 sebulan",
+          "Suami & isteri warganegara Malaysia",
+          "Pendapatan isi rumah kurang RM15,000",
+          "Suami/isteri belum miliki rumawip",
+          "Suami & isteri tidak pernah membeli rumah di wilayah persekutuan.",
+          "Pemohon bujang pendapatan bawah RM10,000",
+          "Menetap atau bekerja di Kuala Lumpur.",
+          "Bukan IC KL juga layak"
+        ],
+        "images": []
+      },
+      {
+        "category": "eligibility",
+        "title": "Kelayakan & Pakej Residensi Aman Madani",
+        "items": [
+          "GAJI MINIMA RM3,500",
+          "BULANAN dari RM1,500",
+          "PINJAMAN 35 tahun",
+          "FAEDAH 100% 4.5%",
+          "FAEDAH 90% 3.7%"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/04/Screenshot-2026-06-11-at-9.09.26-PM-scaled.webp",
+      "https://selangorku.org/wp-content/uploads/2026/04/residensi-aman-madani-3-scaled.webp"
+    ],
+    "form": null
+  },
+  "selangorku-dua-meranti": {
+    "sourceTitle": "Selangorku Dua Meranti",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/selangorku-dua-meranti-1-1024x576.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/selangorku-dua-meranti-1-1024x576.webp"
+    ],
+    "form": null
+  },
+  "rumah-selangorku-cahaya-alam": {
+    "sourceTitle": "Rumah Selangorku Cahaya Alam",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Lif",
+        "value": "3"
+      },
+      {
+        "label": "Jumlah Unit Per Blok",
+        "value": "413 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "22 tingkat Unit Rumah"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "5 tingkat"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/95.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Projek Rumah Selangorku Cahaya Alam, Shah Alam Terbaharu",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/98.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Akses & Perhubungan",
+        "items": [
+          "Lebuhraya NKVE",
+          "Federal Highway",
+          "Shapadu Highway",
+          "KTM Shah Alam",
+          "Klang Sentral Terminal",
+          "Lapangan Terbang Subang (SZB)"
+        ],
+        "images": []
+      },
+      {
+        "category": "amenities",
+        "title": "Institusi Pendidikan Berdekatan",
+        "items": [
+          "SMK Seksyen 7 Shah Alam (±2 km)",
+          "SK Seksyen 7 Shah Alam",
+          "UiTM Shah Alam (±4 km)",
+          "MSU (Management & Science University)",
+          "UNISEL Shah Alam",
+          "MAZ International School"
+        ],
+        "images": []
+      },
+      {
+        "category": "amenities",
+        "title": "Rekreasi & Tarikan Keluarga",
+        "items": [
+          "Tasik Seksyen 7 Shah Alam (±2 km)",
+          "Taman Botani Negara Shah Alam",
+          "Wet World Water Park Shah Alam",
+          "i-City Theme Park",
+          "Shah Alam Extreme Park"
+        ],
+        "images": []
+      },
+      {
+        "category": "amenities",
+        "title": "Pusat Membeli-belah",
+        "items": [
+          "AEON Mall Shah Alam",
+          "Central i-City Mall",
+          "Lotus’s Shah Alam",
+          "Klang Parade",
+          "Setia City Mall"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/99.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/100.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Cahaya Alam",
+        "items": [
+          "Siap Tahun 2029"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Cahaya Alam",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/57.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/58.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/59.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Reka Bentuk Unit Luas & Praktikal",
+        "items": [
+          "Ruang tamu dan ruang makan yang selesa",
+          "Susun atur dapur praktikal",
+          "Pengudaraan dan pencahayaan semula jadi yang baik"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2026/01/96.webp",
+          "https://selangorku.org/wp-content/uploads/2026/01/97.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Maklumat Apartment",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "70% Perabot PERCUMA"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Antara kelengkapan yang disediakan",
+        "items": [
+          "Aircond – 3 unit",
+          "Almari pakaian – 3 unit",
+          "Kabinet dapur",
+          "TV & kabinet TV",
+          "Peti sejuk – 1 unit",
+          "Pemanas air – 3 unit"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Insentif Tambahan",
+        "items": [
+          "Yuran guaman SPA PERCUMA (termasuk disbursement)",
+          "Pakej perabot & elektrik bernilai sehingga RM25,000",
+          "Jumlah penjimatan sehingga RM26,500 *"
+        ],
+        "images": []
+      },
+      {
+        "category": "overview",
+        "title": "Daftar Rumah Selangorku Shah Alam Sekarang. Pemohon Rumah Pertama Sahaja",
+        "items": [
+          "Pemohon tidak pernah memiliki sebarang hartanah kediaman sebelum ini",
+          "Keutamaan diberikan kepada pembeli yang benar-benar ingin mendiami rumah sendiri",
+          "Bukan untuk spekulasi atau pembelian rumah kedua"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2026/01/95.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/98.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/99.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/100.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/57.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/58.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/59.webp",
+      "https://selangorku.org/wp-content/uploads/2026/01/96.webp"
+    ],
+    "form": null
+  },
+  "rumah-teres-shah-alam": {
+    "sourceTitle": "Rumah Teres Shah Alam (S29)",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Leasehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Rizab Melayu"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "32 unit"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/77.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Teres Shah Alam Seksyen 29 – Kediaman Moden, Luas & Strategik Bersebelahan Quayside Mall",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/79.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Premium di Seksyen 29, Shah Alam",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/77-1.webp",
+          "https://selangorku.org/wp-content/uploads/2025/10/78.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Teres Shah Alam S29",
+        "items": [
+          "Nama Projek: Melati 4",
+          "Siap: Tahun 2025"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Teres Shah Alam (S29)",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/10/20.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Taman Melati 4",
+        "items": [
+          "Timber Flooring",
+          "Taman Dalam Rumah",
+          "Balkoni Besar"
+        ],
+        "images": []
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/10/77.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/79.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/77-1.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/78.webp",
+      "https://selangorku.org/wp-content/uploads/2025/10/20.webp"
+    ],
+    "form": null
+  },
+  "rumah-selangorku-puchong": {
+    "sourceTitle": "Rumah Selangorku Puchong",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/51.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Projek Rumah Landed Mampu Milik Bawah RM300,000",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-12.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-13.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik Rumah Selangorku Puchong",
+        "items": [
+          "MEX (Maju Expressway) untuk akses cepat ke Kuala Lumpur dan Putrajaya",
+          "LDP (Lebuhraya Damansara Puchong) menghubungkan ke kawasan utama sekitar Puchong & Damansara",
+          "SKVE (South Klang Valley Expressway) menghubungkan ke Klang dan kawasan selatan Selangor",
+          "ELITE Highway untuk perjalanan mudah ke KLIA dan kawasan industri utama"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-11.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/52.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/53.webp"
+        ]
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Puchong",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/56.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/57.webp",
+          "https://selangorku.org/wp-content/uploads/2025/08/58.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "HABIS DIJUAL",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/CYBERJAYA-3.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/51.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-12.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-13.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/169-1280x720-11.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/52.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/53.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/56.webp",
+      "https://selangorku.org/wp-content/uploads/2025/08/57.webp"
+    ],
+    "form": null
+  },
+  "rumah-selangorku-subang": {
+    "sourceTitle": "Rumah Selangorku Subang",
+    "facts": [
+      {
+        "label": "Pegangan Tanah",
+        "value": "Freehold"
+      },
+      {
+        "label": "Pemilikan",
+        "value": "Open Title"
+      },
+      {
+        "label": "Jumlah Blok",
+        "value": "1"
+      },
+      {
+        "label": "Jumlah Unit",
+        "value": "1 blok: 746 unit"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "33 tingkat Unit Kediaman"
+      },
+      {
+        "label": "Ketinggian Parking",
+        "value": "6 tingkat"
+      },
+      {
+        "label": "Tempat Letak Kereta",
+        "value": "2 Lot"
+      }
+    ],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/169-1280x720-16.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Rumah Selangorku Subang, Rumah Mampu Milik Freehold di Lokasi Premium",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/Rumah-selangorku-in-subang-project-name-HARMONI-TWL-location-1.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/60.webp"
+        ]
+      },
+      {
+        "category": "location",
+        "title": "Lokasi Strategik di USJ 2 Subang Jaya",
+        "items": [
+          "KESAS Expressway",
+          "ELITE Expressway",
+          "Lebuhraya Damansara-Puchong (LDP)",
+          "Federal Highway",
+          "🏬 AEON Mall Shah Alam , Giant Hypermarket & Sunway Pyramid",
+          "⚽ Stadium Shah Alam & Hap Seng Business Park",
+          "🏫 Sekolah, institusi pendidikan & pusat perubatan"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/62.webp",
+          "https://selangorku.org/wp-content/uploads/2025/09/64.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku Subang",
+        "items": [
+          "Nama Projek: Rumah Selangorku USJ"
+        ],
+        "images": []
+      },
+      {
+        "category": "layout",
+        "title": "Pelan Lantai Rumah Selangorku Subang",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/6.png",
+          "https://selangorku.org/wp-content/uploads/2025/09/7.png"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Rumah Selangorku USJ",
+        "items": [
+          "Ada Balkoni",
+          "Ada Yard Dapur",
+          "Pakej Perabot Lengkap"
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/63.webp"
+        ]
+      },
+      {
+        "category": "overview",
+        "title": "Kenapa Pilih Rumah Selangorku USJ",
+        "items": [
+          "✅ Freehold – nilai pelaburan lebih tinggi berbanding leasehold.",
+          "✅ Keluasan besar (1,090 sqft) – sesuai untuk keluarga.",
+          "✅ 2 Parkir bertingkat – selesa untuk pemilik dengan 2 kereta.",
+          "✅ Rekaan moden – lengkap dengan balkoni & yard.",
+          "✅ Lokasi premium Subang Jaya & USJ – akses mudah ke lebuh raya utama."
+        ],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/09/61.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/09/169-1280x720-16.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/Rumah-selangorku-in-subang-project-name-HARMONI-TWL-location-1.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/60.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/62.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/64.webp",
+      "https://selangorku.org/wp-content/uploads/2025/09/6.png",
+      "https://selangorku.org/wp-content/uploads/2025/09/7.png",
+      "https://selangorku.org/wp-content/uploads/2025/09/63.webp"
+    ],
+    "form": null
+  },
+  "selangorku-idaman-cahaya": {
+    "sourceTitle": "Selangorku Idaman Cahaya",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/idaman-cahaya.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/idaman-cahaya.webp"
+    ],
+    "form": null
+  },
+  "rsku-kuala-kubu-bharu": {
+    "sourceTitle": "RSKU Kuala Kubu Bharu",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/selangorku-kkb-1024x576.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/selangorku-kkb-1024x576.webp"
+    ],
+    "form": null
+  },
+  "selangorku-idaman-sari": {
+    "sourceTitle": "Selangorku Idaman Sari",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/idaman-sari-1024x576.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/idaman-sari-1024x576.webp"
+    ],
+    "form": null
+  },
+  "selangorku-idaman-bsp": {
+    "sourceTitle": "Selangorku Idaman BSP",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/idaman-bsp-1024x576.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/idaman-bsp-1024x576.webp"
+    ],
+    "form": null
+  },
+  "selangorku-idaman-melur": {
+    "sourceTitle": "Selangorku Idaman Melur",
+    "facts": [],
+    "sections": [
+      {
+        "category": "overview",
+        "title": "Ringkasan projek",
+        "items": [],
+        "images": [
+          "https://selangorku.org/wp-content/uploads/2025/08/idaman-melur-1.webp"
+        ]
+      }
+    ],
+    "gallery": [
+      "https://selangorku.org/wp-content/uploads/2025/08/idaman-melur-1.webp"
+    ],
+    "form": null
+  }
+}

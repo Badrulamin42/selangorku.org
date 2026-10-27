@@ -4,6 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Bath, BedDouble, Check, ChevronRight, MapPin, Ruler } from "lucide-react";
 import { CalculatorForm } from "@/components/calculator-form";
+import { ProjectRegistrationForm } from "@/components/project-registration-form";
+import { getProjectSourceContent } from "@/lib/project-content";
 import { findProject, projectPath, projectSlug, projects, type Project } from "@/lib/projects";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -35,21 +37,34 @@ export default async function ProjectPage({ params }: Props) {
   const project = findProject((await params).slug);
   if (!project) notFound();
 
+  const source = getProjectSourceContent(projectSlug(project));
+  const sourceSections = (source?.sections || []).filter((section) =>
+    section.title !== "Ringkasan projek" || section.items.length > 0,
+  );
+  const categoryLabels = {
+    overview: "Konsep",
+    location: "Lokasi & akses",
+    layout: "Pelan & susun atur",
+    amenities: "Kemudahan",
+    eligibility: "Kelayakan",
+    package: "Pakej",
+  };
+  const categories = [...new Set(sourceSections.map((section) => section.category))];
+  const seenCategories = new Set<string>();
+  const sourceSectionsWithIds = sourceSections.map((section, index) => {
+    const id = seenCategories.has(section.category) ? `detail-${section.category}-${index}` : `detail-${section.category}`;
+    seenCategories.add(section.category);
+    return { ...section, id };
+  });
   const isSold = project.status === "Habis Dijual";
+  const registrationForm = !isSold ? source?.form : null;
+  const mainAction = isSold ? "/#SENARAI" : registrationForm ? "#daftar-minat" : "#semak-kelayakan";
+  const mainActionLabel = isSold ? "Lihat projek tersedia" : registrationForm ? "Daftar minat" : "Semak kelayakan";
   const initialPrice = project.price.replace(/[^\d]/g, "") || "250000";
   const related = projects
     .filter((item) => item !== project && item.status !== "Habis Dijual")
     .sort((a, b) => Number(b.type === project.type) - Number(a.type === project.type))
     .slice(0, 3);
-
-  const facts = [
-    { label: "Jenis kediaman", value: project.type },
-    { label: "Keluasan / saiz", value: project.size },
-    { label: "Bilik tidur", value: project.rooms },
-    { label: "Bilik air", value: project.baths },
-    { label: "Lokasi", value: project.location },
-    { label: "Status", value: project.status },
-  ];
 
   return (
     <main className="detail-page">
@@ -64,8 +79,8 @@ export default async function ProjectPage({ params }: Props) {
             <Link href="/#SYARAT">Syarat kelayakan</Link>
             <Link href="/#MOHON">Cara mohon</Link>
           </nav>
-          <Link className="button primary detail-header-cta" href={isSold ? "/#SENARAI" : "#semak-kelayakan"}>
-            {isSold ? "Lihat projek lain" : "Semak kelayakan"}<ArrowRight size={16} />
+          <Link className="button primary detail-header-cta" href={mainAction}>
+            {mainActionLabel}<ArrowRight size={16} />
           </Link>
         </div>
       </header>
@@ -79,10 +94,10 @@ export default async function ProjectPage({ params }: Props) {
           <div className="detail-overline"><DetailStatus status={project.status} /><span>{project.type}</span></div>
           <h1 id="project-title">{project.name}</h1>
           <p className="detail-location"><MapPin size={19} />{project.location}</p>
-          <p className="detail-intro">Lihat maklumat utama projek ini dalam satu paparan. Bandingkan harga, keluasan dan susun atur sebelum membuat semakan kelayakan.</p>
+          <p className="detail-intro">{sourceSections.find((section) => section.category === "overview" && section.title !== "Ringkasan projek")?.title || `${project.type} di ${project.location} dengan ${project.rooms} bilik dan ${project.baths} bilik air.`}</p>
           <div className="detail-price"><span>Harga yang dipaparkan</span><strong>{project.price}</strong></div>
           <div className="detail-hero-actions">
-            <Link className="button primary" href={isSold ? "/#SENARAI" : "#semak-kelayakan"}>{isSold ? "Terokai projek tersedia" : "Semak kelayakan"}<ArrowRight size={17} /></Link>
+            <Link className="button primary" href={mainAction}>{mainActionLabel}<ArrowRight size={17} /></Link>
             <Link className="detail-back-link" href="/#SENARAI"><ArrowLeft size={16} /> Kembali ke senarai</Link>
           </div>
         </div>
@@ -99,23 +114,35 @@ export default async function ProjectPage({ params }: Props) {
         <div><MapPin size={20} /><span>Jenis kediaman</span><strong>{project.type}</strong></div>
       </section>
 
+      {categories.length > 0 && <nav className="detail-section-nav container" aria-label="Kandungan projek">
+        <span>Dalam halaman ini</span>
+        {categories.map((category) => <a key={category} href={`#detail-${category}`}>{categoryLabels[category]}</a>)}
+        {registrationForm && <a href="#daftar-minat">Pendaftaran</a>}
+      </nav>}
+
       <section className="detail-main container" aria-labelledby="detail-heading">
         <div className="detail-main-content">
-          <span className="eyebrow">Maklumat projek</span>
-          <h2 id="detail-heading">Butiran yang perlu diketahui</h2>
-          <p className="detail-section-copy">Maklumat di bawah merangkumkan butiran projek yang tersedia dalam senarai kami. Harga, status unit dan syarat khusus boleh berubah; semak semula sebelum meneruskan permohonan.</p>
-          <dl className="detail-facts">
-            {facts.map((fact) => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}
-          </dl>
-          <div className="detail-process">
-            <h3>Langkah seterusnya</h3>
-            <ol>
-              <li><span>01</span><div><strong>Semak kesesuaian projek</strong><p>Pastikan lokasi, jenis kediaman, keluasan dan anggaran harga sesuai dengan keperluan anda.</p></div></li>
-              <li><span>02</span><div><strong>Semak kelayakan kewangan</strong><p>Gunakan kalkulator DSR untuk gambaran awal kemampuan pembiayaan.</p></div></li>
-              <li><span>03</span><div><strong>Sediakan dokumen permohonan</strong><p>Rujuk panduan permohonan dan syarat kelayakan sebelum menghubungi pihak yang mengurus projek.</p></div></li>
-            </ol>
-            <Link href="/#MOHON">Lihat panduan permohonan <ArrowRight size={16} /></Link>
-          </div>
+          <span className="eyebrow">Maklumat daripada halaman projek asal</span>
+          <h2 id="detail-heading">Kenali projek ini</h2>
+          <p className="detail-section-copy">Butiran pembangunan, lokasi, pelan dan kemudahan di bawah diringkaskan daripada halaman projek asal. Harga, status unit dan syarat khusus boleh berubah.</p>
+          {source && source.facts.length > 0 && <dl className="detail-facts">
+            {source.facts.map((fact) => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}
+          </dl>}
+          {sourceSectionsWithIds.length > 0 ? <div className="source-sections">
+            {sourceSectionsWithIds.map((section) => <section className={`source-section source-${section.category}`} id={section.id} key={section.id}>
+              <span className="eyebrow">{categoryLabels[section.category]}</span>
+              <h3>{section.title}</h3>
+              <div className={`source-section-body ${section.images.length ? "has-image" : ""} ${section.items.length ? "" : "image-only"}`}>
+                {section.items.length > 0 && <ul>{section.items.map((item) => <li key={item}><Check size={16} /><span>{item}</span></li>)}</ul>}
+                {section.images.length > 0 && <div className={`source-section-images ${section.category === "layout" ? "is-plan" : ""}`}>
+                  {section.images.slice(0, section.category === "layout" ? 2 : 1).map((image, imageIndex) => <div className="source-section-image" key={image}>
+                    <Image src={image} alt={`${section.title} — ${project.name}, gambar ${imageIndex + 1}`} fill sizes="(max-width: 860px) 100vw, 40vw" unoptimized loading="lazy" />
+                  </div>)}
+                </div>}
+              </div>
+            </section>)}
+          </div> : <p className="detail-section-copy">Halaman asal projek ini memaparkan gambar dan ringkasan asas sahaja. Gunakan butiran harga, saiz dan lokasi di atas untuk perbandingan.</p>}
+          <Link className="detail-guide-link" href="/#MOHON">Lihat panduan cara memohon <ArrowRight size={16} /></Link>
         </div>
         <aside className="detail-aside" aria-label="Ringkasan harga dan tindakan">
           <span className="detail-aside-label">Ringkasan projek</span>
@@ -127,10 +154,22 @@ export default async function ProjectPage({ params }: Props) {
             <li><Check size={16} />{project.size}</li>
             <li><Check size={16} />{project.rooms} bilik · {project.baths} bilik air</li>
           </ul>
-          <Link className="button primary" href={isSold ? "/#SENARAI" : "#semak-kelayakan"}>{isSold ? "Lihat projek tersedia" : "Semak kelayakan"}<ArrowRight size={17} /></Link>
+          <Link className="button primary" href={mainAction}>{mainActionLabel}<ArrowRight size={17} /></Link>
           <small>{isSold ? "Projek ini disenaraikan sebagai habis dijual." : "Semakan DSR ialah anggaran awal, bukan keputusan pembiayaan."}</small>
         </aside>
       </section>
+
+      {registrationForm && <section className="detail-registration" id="daftar-minat">
+        <div className="container detail-registration-grid">
+          <div>
+            <span className="eyebrow">Pendaftaran projek</span>
+            <h2>Daftar untuk {project.name}</h2>
+            <p>Lengkapkan borang pendaftaran projek yang sama seperti pada halaman asal. Maklumat anda dihantar terus ke sistem borang Selangorku.</p>
+            <Link href="#semak-kelayakan">Semak anggaran DSR dahulu <ArrowRight size={16} /></Link>
+          </div>
+          <ProjectRegistrationForm slug={projectSlug(project)} schema={registrationForm} />
+        </div>
+      </section>}
 
       {!isSold && <section className="detail-eligibility" id="semak-kelayakan">
         <div className="container detail-eligibility-grid">
