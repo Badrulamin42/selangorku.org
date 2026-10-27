@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from mirror_project_images import localize_content
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "lib" / "projects.ts"
@@ -210,6 +211,7 @@ def main():
         raise ValueError("Duplicate project slug in lib/projects.ts")
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         results = dict(pool.map(snapshot, slugs))
+    results = localize_content(results)
     OUTPUT.write_text(json.dumps(results, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for slug in slugs:
         item = results[slug]

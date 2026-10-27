@@ -11,7 +11,7 @@ export type Project = {
   href: string;
 };
 
-const uploads = "https://selangorku.org/wp-content/uploads";
+const uploads = "/project-images";
 
 export const projects: Project[] = [
   { name: "Rumah Selangorku U9 Shah Alam", type: "Apartment", price: "RM288,000", size: "1,023 sqft", rooms: "4", baths: "2", location: "U9, Shah Alam", status: "Dalam Jualan", image: `${uploads}/2026/04/residensi_akasia_facade-scaled.webp`, href: "https://selangorku.org/rumah-selangorku-u9-shah-alam/" },

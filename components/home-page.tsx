@@ -183,7 +183,7 @@ export function HomePage() {
           </div>
           <div className="hero-visual">
             <div className="hero-image-wrap">
-              <Image src="https://selangorku.org/wp-content/uploads/2026/04/residensi_akasia_facade-scaled.webp" alt="Projek Rumah Selangorku moden" width={1600} height={900} unoptimized priority />
+              <Image src="/project-images/2026/04/residensi_akasia_facade-scaled.webp" alt="Projek Rumah Selangorku moden" width={1600} height={900} unoptimized priority />
             </div>
             <div className="hero-price-card"><span>Harga projek dari</span><strong>RM230k</strong><small>Lokasi seluruh Selangor</small></div>
             <div className="hero-available-card"><span className="pulse" /><div><strong>Projek tersedia</strong><small>Dikemas kini untuk 2026</small></div></div>
@@ -239,7 +239,7 @@ export function HomePage() {
       <section className="package-section">
         <div className="container package-grid">
           <Reveal className="package-image">
-            <Image src="https://selangorku.org/wp-content/uploads/2025/08/5-2-e1755330381694.webp" alt="Pakej perabot untuk Rumah Selangorku" width={1200} height={675} unoptimized />
+            <Image src="/project-images/2025/08/5-2-e1755330381694.webp" alt="Pakej perabot untuk Rumah Selangorku" width={1200} height={675} unoptimized />
           </Reveal>
           <Reveal className="package-copy" delay={0.08}>
             <SectionHeading eyebrow="Pakej rumah terpilih" title="Pakej istimewa lengkap berperabot" text="Terdapat beberapa pemaju yang menawarkan perabot dalam pakej jualan mereka, terutama bagi Rumah Selangorku jenis E yang memenuhi syarat garis panduan." />
