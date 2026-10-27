@@ -24,6 +24,7 @@ HOME = ROOT / "components" / "home-page.tsx"
 REMOTE = "https://selangorku.org/wp-content/uploads/"
 LOCAL = "/project-images/"
 IMAGE_URL = re.compile(re.escape(REMOTE) + r"[^\s\"'<>`]+")
+LOCAL_IMAGE = re.compile(re.escape(LOCAL) + r"[^\s\"'<>`]+")
 CATALOG_IMAGE = re.compile(r"\$\{uploads\}(/[^`]+)")
 
 
@@ -91,7 +92,8 @@ def main() -> None:
     catalog = CATALOG.read_text(encoding="utf-8")
     home = HOME.read_text(encoding="utf-8")
     content = CONTENT.read_text(encoding="utf-8")
-    urls = set(IMAGE_URL.findall(content)) | set(IMAGE_URL.findall(home))
+    urls = set(IMAGE_URL.findall(content + home + catalog))
+    urls.update(REMOTE + path[len(LOCAL):] for path in LOCAL_IMAGE.findall(content + home + catalog))
     urls.update(REMOTE + suffix.lstrip("/") for suffix in CATALOG_IMAGE.findall(catalog))
     mirror_urls(urls)
 
