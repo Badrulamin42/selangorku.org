@@ -4,8 +4,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Bath, BedDouble, Check, ChevronRight, MapPin, Ruler } from "lucide-react";
 import { CalculatorForm } from "@/components/calculator-form";
+import { ProjectGallery, ProjectGalleryTrigger, type ProjectGallerySlide } from "@/components/project-gallery";
 import { ProjectRegistrationForm } from "@/components/project-registration-form";
 import { getProjectSourceContent } from "@/lib/project-content";
+import imageSizes from "@/lib/project-image-sizes.json";
 import { findProject, projectPath, projectSlug, projects, type Project } from "@/lib/projects";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -65,8 +67,23 @@ export default async function ProjectPage({ params }: Props) {
     .filter((item) => item !== project && item.status !== "Habis Dijual")
     .sort((a, b) => Number(b.type === project.type) - Number(a.type === project.type))
     .slice(0, 3);
+  const sourceImageSizes = imageSizes as Record<string, { width: number; height: number }>;
+  const fullSizeHero = project.image.replace(/-300x\d+(?=\.[^.]+$)/, "");
+  const mediumSizeHero = project.image.replace(/-300x\d+(?=\.[^.]+$)/, "-1024x576");
+  const heroImage = [fullSizeHero, mediumSizeHero].find((image) => sourceImageSizes[image]) || project.image;
+  const galleryImages = [...new Set([
+    heroImage,
+    ...sourceSectionsWithIds.flatMap((section) => section.images),
+    ...(source?.gallery || []),
+  ])];
+  const gallerySlides: ProjectGallerySlide[] = galleryImages.map((src, index) => ({
+    src,
+    alt: `${project.name} — gambar ${index + 1}`,
+    ...(sourceImageSizes[src] || { width: 1600, height: 900 }),
+  }));
 
   return (
+    <ProjectGallery slides={gallerySlides}>
     <main className="detail-page">
       <header className="site-header detail-header">
         <div className="container header-inner">
@@ -101,10 +118,10 @@ export default async function ProjectPage({ params }: Props) {
             <Link className="detail-back-link" href="/#SENARAI"><ArrowLeft size={16} /> Kembali ke senarai</Link>
           </div>
         </div>
-        <div className="detail-hero-image">
-          <Image src={project.image} alt={`Gambar projek ${project.name}`} fill sizes="(max-width: 860px) 100vw, 56vw" unoptimized priority />
+        <ProjectGalleryTrigger src={heroImage} alt={project.name} className="detail-hero-image">
+          <Image src={heroImage} alt={`Gambar projek ${project.name}`} fill sizes="(max-width: 860px) 100vw, 56vw" unoptimized priority />
           <span className="detail-image-caption">{project.name} · {project.location}</span>
-        </div>
+        </ProjectGalleryTrigger>
       </section>
 
       <section className="detail-summary container" aria-label="Ringkasan unit">
@@ -135,9 +152,9 @@ export default async function ProjectPage({ params }: Props) {
               <div className={`source-section-body ${section.images.length ? "has-image" : ""} ${section.items.length ? "" : "image-only"}`}>
                 {section.items.length > 0 && <ul>{section.items.map((item) => <li key={item}><Check size={16} /><span>{item}</span></li>)}</ul>}
                 {section.images.length > 0 && <div className={`source-section-images ${section.category === "layout" ? "is-plan" : ""}`}>
-                  {section.images.slice(0, section.category === "layout" ? 2 : 1).map((image, imageIndex) => <div className="source-section-image" key={image}>
+                  {section.images.slice(0, section.category === "layout" ? 2 : 1).map((image, imageIndex) => <ProjectGalleryTrigger src={image} alt={`${section.title} — ${project.name}`} className="source-section-image" key={image}>
                     <Image src={image} alt={`${section.title} — ${project.name}, gambar ${imageIndex + 1}`} fill sizes="(max-width: 860px) 100vw, 40vw" unoptimized loading="lazy" />
-                  </div>)}
+                  </ProjectGalleryTrigger>)}
                 </div>}
               </div>
             </section>)}
@@ -195,5 +212,6 @@ export default async function ProjectPage({ params }: Props) {
 
       <footer className="detail-footer"><div className="container"><span>© {new Date().getFullYear()} Rumah Selangorku</span><Link href="/">Laman utama</Link><Link href="/#SENARAI">Senarai projek</Link></div></footer>
     </main>
+    </ProjectGallery>
   );
 }

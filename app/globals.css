@@ -318,6 +318,12 @@ footer { color: var(--ink); background: #eaf5fc; border-top: 1px solid #d2e6f3; 
 .detail-back-link { display: inline-flex; align-items: center; gap: 7px; color: #536f84; font-size: 14px; font-weight: 650; }
 .detail-hero-image { position: relative; min-width: 0; min-height: 460px; overflow: hidden; background: #e5edf3; border: 1px solid #d9e5ed; border-radius: 9px; }
 .detail-hero-image img { object-fit: cover; }
+.project-gallery-trigger { display: block; width: 100%; padding: 0; cursor: zoom-in; text-align: left; font: inherit; }
+.project-gallery-trigger:focus-visible { outline: 3px solid #5aaee0; outline-offset: 3px; }
+.project-gallery-badge { position: absolute; z-index: 1; top: 14px; right: 14px; display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; color: #285c7d; background: rgba(255,255,255,.94); border: 1px solid rgba(204,224,238,.9); border-radius: 5px; box-shadow: 0 2px 10px rgba(22,53,77,.1); }
+.project-gallery-trigger:hover .project-gallery-badge { background: #e9f6fe; }
+.project-lightbox .yarl__container { background: #0b1e2e; }
+.project-lightbox .yarl__counter { font-size: 14px; font-weight: 600; }
 .detail-image-caption { position: absolute; right: 15px; bottom: 15px; left: 15px; width: fit-content; max-width: calc(100% - 30px); padding: 7px 11px; overflow: hidden; color: #24425a; background: rgba(255,255,255,.94); border-radius: 4px; font-size: 12px; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
 .detail-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 34px; border: 1px solid var(--line); border-radius: 7px; box-shadow: var(--shadow); }
 .detail-summary > div { display: grid; grid-template-columns: 23px 1fr; gap: 0 11px; align-content: center; min-height: 94px; padding: 17px 23px; border-right: 1px solid var(--line); }
@@ -352,6 +358,7 @@ footer { color: var(--ink); background: #eaf5fc; border-top: 1px solid #d2e6f3; 
 .source-section-images.is-plan { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .source-section-image { position: relative; min-width: 0; aspect-ratio: 4 / 3; overflow: hidden; background: #f3f8fb; border: 1px solid #dce8f0; border-radius: 6px; }
 .source-section-image img { object-fit: cover; }
+.source-section-image .project-gallery-badge { top: 8px; right: 8px; width: 30px; height: 30px; }
 .source-section-images.is-plan .source-section-image img { object-fit: contain; }
 .detail-guide-link { display: inline-flex; align-items: center; gap: 7px; margin-top: 13px; color: var(--blue-dark); font-size: 14px; font-weight: 700; }
 .detail-guide-link:hover { color: #174d73; }

@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "lib" / "project-content.json"
 CATALOG = ROOT / "lib" / "projects.ts"
 HOME = ROOT / "components" / "home-page.tsx"
+SIZES = ROOT / "lib" / "project-image-sizes.json"
 REMOTE = "https://selangorku.org/wp-content/uploads/"
 LOCAL = "/project-images/"
 IMAGE_URL = re.compile(re.escape(REMOTE) + r"[^\s\"'<>`]+")
@@ -77,6 +78,16 @@ def mirror_urls(urls: set[str]) -> None:
                 print(f"Checked {index}/{len(futures)} images", flush=True)
     if failures:
         raise RuntimeError("Image references were not changed:\n" + "\n".join(failures))
+    sizes = {}
+    asset_root = ROOT / "public" / "project-images"
+    for file in sorted(asset_root.rglob("*")):
+        if file.is_file():
+            with Image.open(file) as asset:
+                sizes[LOCAL + file.relative_to(asset_root).as_posix()] = {
+                    "width": asset.width,
+                    "height": asset.height,
+                }
+    SIZES.write_text(json.dumps(sizes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Verified {len(urls)} images ({total_bytes / 1048576:.1f} MiB total).", flush=True)
 
 

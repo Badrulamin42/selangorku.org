@@ -33,7 +33,7 @@ try {
   if (Test-Path -LiteralPath $archivePath) { throw "Release ZIP already exists: $archivePath" }
   Add-Type -AssemblyName System.IO.Compression
   Add-Type -AssemblyName System.IO.Compression.FileSystem
-  $folders = @('.next', 'app', 'components', 'lib', 'public')
+  $folders = @('.next', 'app', 'components', 'lib', 'public', 'node_modules/yet-another-react-lightbox')
   $rootFiles = @('package.json', 'package-lock.json', 'next.config.ts', 'tsconfig.json',
     'postcss.config.mjs', 'components.json', 'next-env.d.ts', 'README.md')
   $sourceFiles = @(

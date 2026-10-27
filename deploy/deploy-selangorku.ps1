@@ -98,7 +98,8 @@ try {
   if (-not (Test-Path -LiteralPath $stageBuild)) { throw 'The ZIP does not contain .next.' }
   $expectedBuild = (Get-Content -LiteralPath (Join-Path $stageBuild 'BUILD_ID') -Raw).Trim()
   if ($expectedBuild -notmatch '^[A-Za-z0-9_-]{8,}$') { throw 'The ZIP contains an invalid Next.js build ID.' }
-  foreach ($relative in @('public\rumah-selangorku-logo.png', 'app\icon.png', 'app\apple-icon.png')) {
+  foreach ($relative in @('public\rumah-selangorku-logo.png', 'app\icon.png', 'app\apple-icon.png',
+      'node_modules\yet-another-react-lightbox\package.json')) {
     if (-not (Test-Path -LiteralPath (Join-Path $stage $relative))) { throw "Missing asset: $relative" }
   }
   $stageHtml = Get-Content -LiteralPath (Join-Path $stageBuild 'server\app\index.html') -Raw
